@@ -17,12 +17,16 @@ a {
     color: #1D1D1B;
 }
 
-.header {
+/* .header {
     max-width: 1120px;
     margin: 0 auto;
-}
+} */
 
 .header-nav {
+    background-color: #F8F8F8;
+}
+
+.header-nav-container {
     background-color: #F8F8F8;
     display: flex;
     align-items: center;
@@ -30,6 +34,8 @@ a {
     height: 36px;
     font-size: 12px;
     font-weight: 400;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .block-city {
@@ -67,10 +73,11 @@ a {
 /* searching */
 
 .header-searching {
-    margin-top: 34px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1120px;
+    margin: 34px auto 0px auto;
 }
 
 .searching-block {
@@ -144,8 +151,9 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 48px;
-    margin-top: 28px;
     background-color: #F8F8F8;
+    max-width: 1120px;
+    margin: 28px auto;
 }
 
 .catalog-nav {
