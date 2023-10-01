@@ -9,17 +9,17 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    max-width: 1120px;
-    margin: 0 auto;
-}
-
 ul {
     list-style: none;
 }
 
 a {
     color: #1D1D1B;
+}
+
+.header {
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .header-nav {
