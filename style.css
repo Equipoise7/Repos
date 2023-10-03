@@ -92,6 +92,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 0;
+    border-radius: 0px 3px 3px 0px;
 }
 
 .searching-block input {
@@ -100,6 +102,7 @@ a {
     width: 356px;
     border: 1px solid #D4D4D4;
     padding-left: 16px;
+    border-radius: 3px 0px 0px 3px;
 }
 
 .searching-buttons {
@@ -112,6 +115,7 @@ a {
     justify-content: center;
     height: 48px;
     width: 182px;
+    border-radius: 4px;
 }
 
 .searching-button-two {
